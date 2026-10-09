@@ -1,24 +1,25 @@
-import { Outlet } from "react-router";
-import './App.css'
+import './index.css';
+import BotCard from './components/BotCard';
+import {data} from '../public/data';
+
+const initialData = data
 
 function App() {
+
   return (
-    <>
-      <header>
-        <nav>AMAbot Showcase</nav>
-      </header>
+<>
+  <div>
+    {initialData.map((bot) => (
+    <BotCard
+    key={bot.id}
+    developer={bot.developer}
+    thumbnail={bot.thumbnail}
 
-      
-      <main>
-        <Outlet />
-      </main>
-
-      <footer>
-        
-        <p></p>
-      </footer>
-    </>
+  />
+    ))}
+  </div>
+  </>
+  
   )
-}
-
+};
 export default App
