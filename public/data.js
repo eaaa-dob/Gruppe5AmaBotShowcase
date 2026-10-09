@@ -2,11 +2,11 @@ export const data = [
   {
     id: 1,
     developer: "Albert",
-    Titel: "Chat with my clone!",
-    thumbnail: "./public/images/AlbertBotShow.png",
-    image: [
-      "./public/images/ChaBbotShow2",
-      "./public/images/ChatBotShow3.png",
+    title: "Chat with my clone!",
+    thumbnail: "/images/AlbertBotShow.png",
+    images: [
+      "/images/ChatBotShow2.png",
+      "/images/ChatbotShow3.png",
     ],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
@@ -31,9 +31,9 @@ export const data = [
   {
     id: 2,
     developer: "Andy",
-    titel: "Min seje amabot-wuhuuu",
+    title: "Min seje amabot-wuhuuu",
     thumbnail: "img",
-    image: ["img1", "img2"],
+    images: ["img1", "img2"],
     answers: [
       "Min amabot kan svare på alt fra ..... eller noget",
       "Min amabot er useless",
@@ -45,9 +45,9 @@ export const data = [
   },
 
   {
-    id: "3",
-    creator: "Stine",
-    titel: "amabot",
+    id: 3,
+    developer: "Stine",
+    title: "amabot",
     thumbnail: "bdvhjgjke",
     images: ["jdk", "vjdfke"],
     answers: ["hfdjk", "fdjkhk"],
@@ -58,8 +58,8 @@ export const data = [
     id: 4,
     developer: "Frederik Lenz Pedersen",
     title: "Frederik's bot",
-    thumbnail: "/public/images/cæsar.jpg",
-    image: "/public/images/showcase.png",
+    thumbnail: "/images/cæsar.jpg",
+    images: ["/images/showcase.png"],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
       "Jeg hedder Frederik. Hvad vil du ellers vide om mig?",
@@ -67,6 +67,6 @@ export const data = [
       "I min fritid kan jeg godt lide at game og se serier.",
       "Min livret er lasagne.",
     ],
-    challenges: "At få det til at fungere :-)",
+    challenges: ["At få det til at fungere :-)"],
   },
 ];
