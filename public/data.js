@@ -2,8 +2,8 @@ export const data = [
   {
     id: 1,
     developer: "Albert",
-    Titel: "Chat with my clone!",
-    thumbnail: "",
+    title: "Chat with my clone!",
+    thumbnail: "./public/images/AlbertBotShow.png",
     image: ["", ""],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
@@ -28,7 +28,7 @@ export const data = [
   {
     id: 2,
     developer: "Andy",
-    titel: "Min seje amabot-wuhuuu",
+    title: "Min seje amabot-wuhuuu",
     thumbnail: "img",
     image: ["img1", "img2"],
     answers: [
@@ -43,8 +43,8 @@ export const data = [
 
   {
     id: "3",
-    creator: "Stine",
-    titel: "amabot",
+    developer: "Stine",
+    title: "amabot",
     thumbnail: "bdvhjgjke",
     images: ["jdk", "vjdfke"],
     answers: ["hfdjk", "fdjkhk"],
