@@ -1,0 +1,58 @@
+const data = [
+    {
+    id: 1,
+    developer: "Frederik Lenz Pedersen",
+    title: "Frederik's bot",
+    thumbnail: "/public/images/cæsar.jpg",
+    image: "/public/images/showcase.png",
+    answers: [ 
+        {
+    category: "hilsen",
+    keywords: [
+      "hej",
+      "hallo",
+      "hello",
+      "hey"
+    ],
+    answer: "Hej! Hvad vil du gerne vide om mig?"
+  },
+  {
+    category: "navn",
+    keywords: [
+      "navn",
+      "hedder",
+      "hvem er du"
+    ],
+    answer: "Jeg hedder Frederik. Hvad vil du ellers vide om mig?"
+  },
+  {
+    category: "bosted",
+    keywords: [
+      "bor",
+      "by",
+      "fra"
+    ],
+    answer: "Jeg bor i Viby."
+  },
+  {
+    category: "fritid",
+    keywords: [
+      "fritid",
+      "hobby",
+      "kan lide"
+    ],
+    answer: "I min fritid kan jeg godt lide at game og se serier."
+  },
+  {
+    category: "mad",
+    keywords: [
+      "mad",
+      "spise",
+      "livret"
+    ],
+    answer: "Min livret er lasagne."
+  }
+    ],
+    challenges: "At få det til at fungere :-)"
+  }
+]
