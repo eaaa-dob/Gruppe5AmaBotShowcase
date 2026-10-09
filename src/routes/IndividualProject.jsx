@@ -9,7 +9,7 @@ export async function clientLoader ({ params }) {
     return selectedBot;
 }
 
-export function IndividualProject(){
+export default function IndividualProject(){
 
 const bot = useLoaderData();
 
@@ -21,21 +21,13 @@ return (
 <>
 <section className="Botdetail">
     <section className="Højre">
-
+    <h1>HEJ JEG HEDDER ALBERT</h1>
         <div className="imageCon">
-        <img src="{bot.image.1}" alt="" />
-        <img src="{bot.image.2}" alt="" />
-        </div>
-
-
+        <img src={bot.image[0]} alt="" />
+        <img src={bot.image[1]} alt="" />
+    </div>
     </section>
-
-
-
     <section className="Venstre">
-
-
-
     </section>
 </section>
 </>

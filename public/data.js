@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     developer: "Albert",
-    Titel: "Chat with my clone!",
+    titel: "Chat with my clone!",
     thumbnail: "./public/images/AlbertBotShow.png",
     image: [
       "./public/images/ChaBbotShow2",
