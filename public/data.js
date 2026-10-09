@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     developer: "Albert",
-    Titel: "Chat with my clone!",
+    title: "Chat with my clone!",
     thumbnail: "",
     image: ["", ""],
     answers: [
@@ -28,7 +28,7 @@ export const data = [
   {
     id: 2,
     developer: "Andy",
-    titel: "Min seje amabot-wuhuuu",
+    title: "Min seje amabot-wuhuuu",
     thumbnail: "img",
     image: ["img1", "img2"],
     answers: [
@@ -44,7 +44,7 @@ export const data = [
   {
     id: "3",
     creator: "Stine",
-    titel: "amabot",
+    title: "amabot",
     thumbnail: "bdvhjgjke",
     images: ["jdk", "vjdfke"],
     answers: ["hfdjk", "fdjkhk"],
