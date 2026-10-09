@@ -1,0 +1,1 @@
+export const stine = [{id: "1", creator: "Stine", titel:"amabot", thumbnail:"bdvhjgjke", images:["jdk","vjdfke"], answers:["hfdjk","fdjkhk"], challenges:["fhjdks", "fdhjke"]}]
