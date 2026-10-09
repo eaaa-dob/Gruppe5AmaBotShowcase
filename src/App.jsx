@@ -6,7 +6,7 @@ const initialData = data
 function App() {
   return (
 <>
-  <div>
+  <div className='card-container'>
     {initialData.map((bot) => (
     <BotCard
     key={bot.id}
