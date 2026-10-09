@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router";
 
-import { data } from "../../public/data.js";
+import { data } from "./data.js";
 
 export async function clientLoader ({ params }) {
     const targetId = Number(params.id)
