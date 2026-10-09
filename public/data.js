@@ -3,7 +3,7 @@ export const data = [
     id: 1,
     developer: "Albert",
     title: "Chat with my clone!",
-    thumbnail: "",
+    thumbnail: "./public/images/AlbertBotShow.png",
     image: ["", ""],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
@@ -43,7 +43,7 @@ export const data = [
 
   {
     id: "3",
-    creator: "Stine",
+    developer: "Stine",
     title: "amabot",
     thumbnail: "bdvhjgjke",
     images: ["jdk", "vjdfke"],
