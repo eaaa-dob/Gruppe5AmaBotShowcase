@@ -44,11 +44,11 @@ export const data = [
   {
     id: "3",
     developer: "Stine",
-    title: "amabot",
-    thumbnail: "bdvhjgjke",
-    images: ["jdk", "vjdfke"],
-    answers: ["hfdjk", "fdjkhk"],
-    challenges: ["fhjdks", "fdhjked"],
+    title: "Amabot",
+    thumbnail: "./images/stine-thumbnail.png",
+    images: ["./images/stine-ama-1.png", "./images/stine-ama-2.png"],
+    answers: ["Bosted", "Familie", "Livret", "Alder", "Navn"],
+    challenges: ["Error handling", "Svarlogik"],
   },
 
   {
