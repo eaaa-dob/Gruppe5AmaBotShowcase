@@ -3,10 +3,10 @@ export const data = [
     id: 1,
     developer: "Albert",
     titel: "Chat with my clone!",
-    thumbnail: "./public/images/AlbertBotShow.png",
+    thumbnail: "/images/AlbertBotShow.png",
     image: [
-      "./public/images/ChaBbotShow2",
-      "./public/images/ChatBotShow3.png",
+      "/images/ChatBotShow2.png",
+      "/images/ChatBotShow2.png",
     ],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",

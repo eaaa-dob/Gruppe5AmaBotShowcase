@@ -1,6 +1,6 @@
 import './index.css';
 import BotCard from './components/BotCard';
-import {data} from '../public/data';
+import { data } from './data';
 
 const initialData = data
 
