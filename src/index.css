@@ -1,6 +1,8 @@
+html{
+  font-family:'Helvetica';
+}
 
-
-main {
+.card-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -11,8 +13,16 @@ main {
 
 .botcard {
   display: flex;
-  background-color: red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
+  border: 1px solid black;
   margin: 1rem;
+  height: 250px;
+  width: 250px;
+}
 
+.thumbnail-container  {
+  width: 200px;
 }
