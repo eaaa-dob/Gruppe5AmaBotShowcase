@@ -29,7 +29,7 @@ export const data = [
     id: 2,
     developer: "Andy",
     title: "Min seje amabot-wuhuuu",
-    thumbnail: "img",
+    thumbnail: "./public/images/random.png",
     image: ["img1", "img2"],
     answers: [
       "Min amabot kan svare på alt fra ..... eller noget",
