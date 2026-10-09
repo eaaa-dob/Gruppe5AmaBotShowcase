@@ -78,6 +78,6 @@ export const data = [
     thumbnail: "bdvhjgjke",
     images: ["jdk", "vjdfke"],
     answers: ["hfdjk", "fdjkhk"],
-    challenges: ["fhjdks", "fdhjke"],
+    challenges: ["fhjdks", "fdhjked"],
   },
 ];
