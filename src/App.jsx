@@ -3,9 +3,7 @@ import BotCard from './components/BotCard';
 import {data} from '../public/data';
 
 const initialData = data
-
 function App() {
-
   return (
 <>
   <div>
