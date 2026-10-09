@@ -3,8 +3,11 @@ export const data = [
     id: 1,
     developer: "Albert",
     Titel: "Chat with my clone!",
-    thumbnail: "",
-    image: ["", ""],
+    thumbnail: "./public/images/AlbertBotShow.png",
+    image: [
+      "./public/images/ChaBbotShow2",
+      "./public/images/ChatBotShow3.png",
+    ],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
       "Jeg hedder Albert. Hvad vil du ellers vide om mig?",
@@ -20,7 +23,7 @@ export const data = [
       "Jeg ser en del anime. Mine absolutte favoritter er nok Demon Slayer og Hunter x Hunter, tæt på kommer også Attack on Titan og Summertime Rendering",
     ],
     challenges: [
-      "At kode billed funktionalitet ind",
+      "At kode billede funktionalitet ind",
       "At ændre fra SSR til CSR",
     ],
   },
